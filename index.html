@@ -3,22 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <title>Naman Gandhi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: sans-serif; max-width: 700px; margin: auto; padding: 2rem; line-height: 1.6; }
-    h1 { color: #333; }
-    p { font-size: 1.1rem; }
-    ul { margin: 1rem 0; }
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      background: #f9f9fb;
+      color: #333;
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.3rem;
+    }
+
+    ul { margin-left: 1.2rem; }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: #444;
+    }
   </style>
 </head>
 <body>
-  <h1>Hi, I’m Naman 👋</h1>
-  <p>I like understanding how things work — from silicon to software. Right now I’m:</p>
-  <ul>
-    <li>Studying at IIST and diving into tech beyond exams.</li>
-    <li>Building projects like a Python + SQL library system and experimenting with OS design.</li>
-    <li>Balancing studies with early morning workouts (5:30 AM gym).</li>
-    <li>Exploring Linux, physics, and deep learning.</li>
-  </ul>
-  <p>📩 Reach me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+  <header>
+    <h1>👋 Hi, I’m Naman Gandhi</h1>
+    <p class="tagline">Curious about how things work — from silicon to software.</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a student at IIST who loves going beyond exams to understand concepts deeply.
+      I enjoy building projects and exploring tech, Linux, and physics.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Library Management System</strong> — Python frontend + SQL backend.</li>
+    </ul>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Let’s connect if you share curiosity and a love for building!  
+      📩 <a href="namangandhi3260@gmail.com">namangandhi3260@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Naman Gandhi — Built with ❤️ and hosted on GitHub Pages.</p>
+  </footer>
 </body>
 </html>
